@@ -1,0 +1,60 @@
+:root {
+  font: var(--cps-text-body);
+  background-color: var(--cps-fill-solid-primary);
+  color: var(--cps-foreground-primary);
+  padding: 1rem;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1 {
+  font: var(--cps-text-heading);
+  margin: 2rem 0;
+}
+
+div {
+  margin: 5rem 0 4rem;
+}
+
+p {
+  color: var(--cps-foreground-tertiary);
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #8ed6fbaa);
+}
+
+.logo.cps-elements:hover {
+  filter: drop-shadow(0 0 2em #0797bbaa);
+}

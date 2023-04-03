@@ -1,0 +1,6 @@
+{
+  "html.customData": [
+    "./node_modules/@cps-elements/web/vscode.html-custom-data.json"
+  ],
+  "editor.formatOnSave": true
+}

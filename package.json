@@ -1,7 +1,9 @@
 {
-  "name": "webpack-starter",
-  "private": true,
+  "name": "cps-elements-example-webpack",
+  "description": "Um modelo de configuração mínima demonstrando como importar componentes CPS Elements com Webpack como empacotador do projeto.",
+  "author": "Erick Eduardo Petrucelli <erickpetru@gmail.com>",
   "version": "0.1.7",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "webpack serve --open",

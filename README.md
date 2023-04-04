@@ -8,7 +8,7 @@ Em sua versão 5, o Webpack avançou no suporte a [módulos JavaScript](https://
 
 Assim, este exemplo foca em demonstrar um conjunto opinativo de configurações uteis no [webpack.config.js](./webpack.config.js), tanto para desenvolvimento quanto para publicação de aplicações com Webpack 5, contendo diversos ajustes sobre carregamento de HTML, CSS, SVG, bem como o empacotamento JavaScript.
 
-Opcionalmente, recursos podem carregados pela instalação local com o _bundler_ ao invés de serem carregados por CDN. Para tal, a única configuração Rollup necessária é copiar os ícones de `node_modules/@cps-elements/web/assets` para `dist/assets` da distribuição empacotada, através do `copy-webpack-plugin`.
+_Opcionalmente_, recursos podem carregados pela instalação local ao invés de serem carregados por CDN. Para tal, a única configuração extra necessária é copiar os ícones de `node_modules/@cps-elements/web/assets` para `dist/assets` da distribuição empacotada, através do `copy-webpack-plugin`.
 
 Observe que Webpack pode ser usado com _frameworks_ JavaScript, onde configurações extras podem ser necessárias. Mas para utilização com Web nativa, ou seja, HTML, CSS e JavaScript puros, este projeto apresenta os fundamentos para você poder começar de forma produtiva.
 

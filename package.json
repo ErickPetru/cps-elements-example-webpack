@@ -11,7 +11,7 @@
     "preview": "http-server dist -a localhost -g -o"
   },
   "dependencies": {
-    "@cps-elements/web": "^0.1.7"
+    "@cps-elements/web": "^0.1.8"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
